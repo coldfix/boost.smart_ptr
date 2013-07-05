@@ -1,9 +1,9 @@
-#ifndef BOOST_THREAD_THREAD_HPP
-#define BOOST_THREAD_THREAD_HPP
+#ifndef BOOST_THREAD_THREAD_ONLY_HPP
+#define BOOST_THREAD_THREAD_ONLY_HPP
 
 //  thread.hpp
 //
-//  (C) Copyright 2007-8 Anthony Williams
+//  (C) Copyright 2013 Vicente J. Botet Escriba
 //
 //  Distributed under the Boost Software License, Version 1.0. (See
 //  accompanying file LICENSE_1_0.txt or copy at
@@ -23,7 +23,6 @@
 #if defined BOOST_THREAD_PROVIDES_INTERRUPTIONS
 #include <boost/thread/detail/thread_interruption.hpp>
 #endif
-#include <boost/thread/detail/thread_group.hpp>
 #include <boost/thread/v2/thread.hpp>
 
 
